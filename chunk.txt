@@ -1,0 +1,10 @@
+﻿        'toUid':     seller.id,
+        'fromUid':   buyerUid ?? '',
+        'type':      'product_request',
+        'title':     'New Product Request 🛍️',
+        'body':      '$productTitle — a buyer is looking for this!',
+        'createdAt': FieldValue.serverTimestamp(),
+        'read':      false,
+      });
+    }
+    await batch.commit();

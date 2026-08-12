@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652682074206",
+    "project_id": "marinetradeconnect-38ef6",
+    "storage_bucket": "marinetradeconnect-38ef6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652682074206:android:fa9c5af074423c4ea93ccf",
+        "android_client_info": {
+          "package_name": "com.example.marine_trade_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEpNRmFwfR_7pcnvGZn5ar_XXRVRGelnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652682074206:android:0222a0fd50e2d4baa93ccf",
+        "android_client_info": {
+          "package_name": "com.example.my_first_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEpNRmFwfR_7pcnvGZn5ar_XXRVRGelnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

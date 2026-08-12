@@ -1,0 +1,56 @@
+name: mtc
+description: Marine Trade Connect
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase
+  firebase_core:    ^3.15.2
+  firebase_auth:    ^5.5.0
+  cloud_firestore:  ^5.6.12
+  firebase_storage: ^12.4.4   # ADDED — required for secondhand image uploads
+
+  # UI & Media
+  cupertino_icons:       ^1.0.8
+  image_picker:          ^1.1.2
+  cached_network_image:  ^3.4.1
+
+  # Voice
+  flutter_tts: ^4.2.5
+
+  # Networking
+  http: ^1.2.1
+
+  # State & navigation
+  provider: ^6.1.1
+
+  # Utilities
+  url_launcher: ^6.3.2
+
+  # intl is provided by flutter_localizations — no separate entry needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/theme_navy_gold.jpg
+    - assets/images/theme_midnight_cyan.jpg
+    - assets/images/theme_ocean_green.jpg
+    - assets/images/theme_deep_blue.jpg
+    - assets/images/theme_coral_sunset.jpg
+dependency_overrides:
+  path_provider_android: 2.2.15
+  sqflite_android: 2.4.0
+
